@@ -1,0 +1,152 @@
+\documentclass[12pt,-letter paper]{article}
+\usepackage{siunitx}         
+\usepackage{setspace}        
+\usepackage{gensymb}         
+\usepackage{xcolor}          
+\usepackage{caption}
+%\usepackage{subcaption}
+\doublespacing
+\singlespacing
+\usepackage[none]{hyphenat}  
+\usepackage{amssymb}         
+\usepackage{relsize}         
+\usepackage[cmex10]{amsmath} 
+\usepackage{mathtools}       
+\usepackage{amsmath}
+\usepackage{amsfonts}        
+\usepackage{amssymb}        
+\usepackage{commath}
+\usepackage{amsthm}
+\interdisplaylinepenalty=2500
+%\savesymbol{iint}
+\usepackage{txfonts}%\restoresymbol{TXF}{iint}
+\usepackage{wasysym}
+\usepackage{amsthm}
+\usepackage{mathrsfs}        
+\usepackage{txfonts}
+\let\vec\mathbf{}
+\usepackage{stfloats}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{cases}
+\usepackage{subfig}          
+%\usepackage{xtab}
+\usepackage{longtable}
+\usepackage{multirow}
+%\usepackage{algorithm}
+\usepackage{amssymb}
+%\usepackage{algpseudocode}
+\usepackage{enumitem}
+\usepackage{mathtools}
+%\usepackage{eenrc}
+%\usepackage[framemethod=tikz]{mdframed}  \usepackage{listings}                
+%\usepackage{listings}
+\usepackage[utf8]{inputenc}
+%%\usepackage{color}{
+%%\usepackage{lscape}
+\usepackage{textcomp}
+\usepackage{titling}
+\usepackage{hyperref}
+%\usepackage{fulbigskip}
+\usepackage{tikz}
+\usepackage{graphicx}
+%%\lstset{frame=single, \breaklines=true}}
+\let\vec\mathbf{}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{graphicx}        
+\usepackage{tfrupee}
+\usepackage{amsmath}         
+\usepackage{amssymb}
+\usepackage{mwe} % for blindtext and example-image-a in example
+\usepackage{wrapfig}
+\providecommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\providecommand{\qfunc}[1]{\ensuremath{Q\left(#1\right)}}
+\providecommand{\sbrak}[1]{\ensuremath{{}\left[#1\right]}}
+\providecommand{\lsbrak}[1]{\ensuremath{{}\left[#1\right]}}
+\providecommand{\rsbrak}[1]{\ensuremath{{}\left[#1\right]}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\lbrak}[1]{\ensuremath{\left(#1\right.}}
+\providecommand{\rbrak}[1]{\ensuremath{\left.#1\right)}}
+\providecommand{\cbrak}[1]{\ensuremath{\left\{#1\right\}}}
+\providecommand{\lcbrak}[1]{\ensuremath{\left\{#1\right.}}
+\providecommand{\rcbrak}[1]{\ensuremath{\left.#1\right\}}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\usepackage{tfrupee}
+\title{MATHEMATICS}
+\author{Pathan LalJohnBasha}
+\begin{document}
+\maketitle
+\begin{enumerate}
+\section{Matrices}
+\item If $3\vec{A}-\vec{B}=
+\myvec{5 & 0 \\ 1 & 1 \\}$ and $\vec{B}=
+\myvec{4 & 3\\2 & 5\\}$, then find the matrix A.
+\item Find a matrix A sch that $2A - 3B + 5C = O$,Where $B = \myvec{-2 & 2 & 0\\3 & 1 & 4\\}$ and 
+$C=\myvec{2 & 0 & -2\\7 & 1 & 6 \\}$
+\item Using properties of determinants, prove the following:
+\\$\myvec{
+a & b & c\\
+a-b & b-c & c-a\\
+b+c & c+a & a+b \\
+} = a^3 + b^3 + c^3 - 3abc. $
+\item If $A = \myvec{
+1 & 1  & 1\\
+1 & 0 & 2\\
+3 & 1& 1\\
+}$, find $A^-1$.Hence,solve the system of equations $x + y + z = 6,x + 2z = 7,3x + y + z = 12.$
+\section{Vectors}
+\item Find the vector equation of the line which passes through the point $\brak{3, 4, 5}$ and is parallel to the vector $2\hat{i} + 2\hat{j} - 3\hat{k}$.
+\item If the sum of two unit vectors is a unit vector, prove that the magnitude of their difference is $\sqrt{3}$.
+\item If $\overrightarrow{a} = 2\hat{i} + 3\hat{j} + \hat{k}$, $\overrightarrow{b} = \hat{i} - 2\hat{j} + \hat{k}$, and $\overrightarrow{c} = -3\hat{i} + \hat{j} + 2\hat{k}$, find the ${[\overrightarrow{a}\overrightarrow{b}\overrightarrow{c}]}$.
+\item If $\hat{i}+\hat{j}+\hat{k}$, $3\hat{i}+2\hat{j}-3\hat{k}$ and $\hat{i}-6\hat{j}-\hat{k}$. respectively are the position vectors of points A,B,C and D. Find the angle between the strightlines AB and CD.Find whether $\overrightarrow{AB}$ and $\overrightarrow{CD}$ are collinear are not.
+\item Find the vector and Cartesian equations of the plane passing through the points $\brak{2, 2-1},\brak{3, 4, 2}$ and $\brak{7, 0, 6}$. Also find the vector equation of a plane passing through $\brak{4, 3, 1}$ and parallel to the plane obtained above.
+\item Find the vector equation of the plane that contains the lines $\overrightarrow{r} = \brak{\hat{i} + \hat{j}} + \lambda\brak{\hat{i} + 2\hat{j} - \hat{k}}$ and the point $\brak{-1, 3, -4}$. Also, find the length of the perpendicular drawn from the point $\brak{2, 1, 4}$ to the plane thus obtained.
+\section{Differentiation}
+\item write the order and degree of the following diffrential equation:\\
+$x^{3}\left(\frac{d^{2}y}{dx^{2}}\right)^2 +x\left(\frac{dy}{dx}\right)^4 = 0$
+\item If $f(x) = x + 1$, find $\frac{d}{dx}\brak{fOf}(x)$.
+\item The random variable $X$ has a probability distribution $P(X)$ of the following form,
+\\where $'k'$ is some number.                        $ P\brak{X=x} = \begin{cases}
+k, & \text{if} x=0 \\
+2k, & \text{if} x=1 \\
+3k, & \text{if} x=2 \\
+0, & \text{otherwise}
+\end{cases}$
+\item If $log\brak{x^{2}+y^{2}}$=$2\tan^{-1}\brak{\frac{y}{x}}$ show that $\frac{dy}{dx}$=$\frac{x+y}{x-y}$.
+\item $x^{y}-y^{x}$=$a^{b}$,find $\frac{dy}{dx}$.
+\item $y$ = $\brak{\sin^{-1}x}^{2}$,prove that $\brak{1-x^{2}}\frac{d^{2}y}{dx^{2}}-x\frac{dy}{dx}-2$=0.
+\item solve the differential equation: $\frac{dy}{dx}-\frac{2x}{1+x^{2}}y$=$x^{2}+2$.
+\item Solve the differential equation: $\brak{x+1}\frac{dy}{dx}$=$2e^{-y}-1$;$y\brak{0}$=0.
+\item Form the differential equation representing the family of curves $y = e^{2x}\brak{a + bx}$ where $a$ and $b$ are arbitrary constants.
+\section{Intigration}
+\item Find: $\int \sin{x}\cdot\log\cos{x} \,dx$.
+\item Evaluate$\int_{-\pi}^{\pi} \brak{1 - x^2} \sin{x}\cos^2{x} dx$.
+\item Evaluate: $\int_{-1}^{2} \frac{|x|}{x} dx$.
+\item Prove that $\int_{0}^{a}{f(x)dx}$=$\int_{0}^{a}{f\brak{a-x}dx}$,hence evaluate $\int_{0}^{\pi}{\frac{x \sin{x}}{1+\cos^{2}x}dx}$.
+\item Find: $\int{\frac{\cos{x}}{\brak{1+\sin{x}}\brak{2+\sin{x}}}}dx $.
+\section{Trigonometry}
+\item Solve: $\tan^{-1}{4x}+\tan^{-1}{6x} = \frac{\pi}{4}$.
+\item If a line makes angles $90^\circ$, $135^\circ$, $45^\circ$ with the $x$, $y$, and $z$ axes respectively, find its direction cosines
+\item Find the equation of tangent to the curve $y = \sqrt 3x - 2 $ which is parallel to the line $4x - 2y + 5.$ write the equation of normal to the curve at the point of contact.
+\section{Functions}
+\item Examine whether the operation $*$ defined on ${R}$ by $a * b = ab + 1$ is
+{(i)} a binary operation or not.{(ii)} if a binary operation, is it associative or not?
+\item Show that the relation $R$ on ${R}$ defined as $R =\cbrak{{{\brak{a, b} : a \leq b}}}$, is reflexive, and transitive but not symmetric.
+\item Prove that the function $f : N \rightarrow N,$ defined by $f{\brak{x}}=x^2 + x +1$ is one-one but not onto.Find inverse of $f : N\rightarrow S,$ where S is range of f.
+\section{Calculus}
+\item Prove that the curves $y^2 = 4x$ and $x^2 = 4y$ divide the area of the square bounded by sides $x=0,x=4,y=4,$ and $y=0$ into three equal parts.
+\item Using integration, find the area of the triangle whose vertices are $\brak{2,3},\brak{3,5}$ and $\brak{4,4}$.
+\item Find the value of $\lambda$, so that the lines $\frac{1–x}{3} = \frac{7y – 14}{\lambda} = \frac{z – 3}{2}$ and $\frac{7 – 7x}{3\lambda}  = \frac{y– 5}{1} =\frac{6 – z}{5}$ are at right angles. Also, find whether the lines are intersecting or not.
+\item A tank with a rectangular base and rectangular sides, open at the top, is to be constructed so that its depth is 2 m and volume is $8{m}^3$. If the cost of building the tank is \rupee70 per square meter for the base and \rupee45 per square meter for the sides, what is the cost of the least expensive tank?
+\section{Probability}
+\item A die marked $1, 2, 3$ in red and $4, 5, 6$ in green is tossed. Let $A$ be the event "number is even" and $B$ be the event "number is marked red." Find whether the events $A$ and $B$ are independent or not.
+\item A die is thrown 6 times. If "getting an odd number" is a "success", what is the probability of:
+\brak{i} i5 successes?
+\brak{ii} at most 5 successes?
+\item Two cards are drawn simultaneously \brak{or successively without replacement} from a well shuffled pack of $52$ cards. Find the mean and variance of the number of kings.
+\section{Linear Programming Problems}
+\item A manufacturer has employed $5$ skilled men and $10$ semi-skilled men and makes two models A and B of an article. The making of one item of model A requires $2$ hours work by a skilled man and $2$ hours work by a semi-skilled man. One item of model B requires $1$ hour by a skilled man and $3$ hours by a semi-skilled man. No man is expected to work more than $8$ hours per day. The manufacturer's profit on an item of model A is \rupee15 and on an item of model B is \rupee10. How many of items of each model should be made per day in order to maximize daily profit ? Formulate the above LPP and solve it graphically and find the maximum profit.
+\end{enumerate}
+\end{document}
